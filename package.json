@@ -1,0 +1,30 @@
+{
+  "name": "amazonqdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "cucumber-js",
+    "test:report": "cucumber-js --format html:cucumber-report.html"  
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.8.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "chai": "^5.1.2",
+    "supertest": "^7.0.0"
+  }
+}
